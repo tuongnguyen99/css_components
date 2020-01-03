@@ -1,0 +1,37 @@
+*{
+    font-family: sans-serif;
+}
+.hover-dropdown{
+    display: inline-block;
+    position: relative;
+    user-select: none;
+}
+.hover-dropdown button{
+    background-color: red;
+    color: #FFF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.dropdown-content{
+    min-width: 160px;
+    position: absolute;
+    display: none;
+    transition: all 3s;
+}
+.hover-dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 12px 16px;
+    font-size: 14px;
+    background-color:#eaeaea;
+}
+.dropdown-content a:hover{
+    background-color: #555555;
+    color: #FFF;
+}

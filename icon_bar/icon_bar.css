@@ -1,0 +1,19 @@
+.icon-bar {
+  width: 80px;
+  background-color: #353535;
+}
+.icon-bar a {
+  display: block;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.icon-bar a:hover {
+  background-color: #515151;
+  transform: translate(10px);
+}
+.icon-bar .active {
+    background-color: #e75f34 !important;
+}
