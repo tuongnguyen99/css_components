@@ -1,0 +1,36 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.top-nav{
+    background-color: #2e2e2e;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.top-nav ul{
+    list-style: none;
+}
+
+.top-nav li{
+    margin: 0px;
+    float: left;
+}
+
+.top-nav li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+.top-nav li:hover{
+    background-color: red;
+}
+.active{
+    background-color: red;
+}

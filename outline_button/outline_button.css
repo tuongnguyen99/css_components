@@ -1,0 +1,36 @@
+.btn-outline{
+    background-color: #FFF;
+    border: 2px solid;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-success{
+    border-color: green;
+    color: green;
+}
+
+.btn-danger{
+    border-color: tomato;
+    color: tomato;
+}
+.btn-warning{
+    border-color: orange;
+    color: orange;
+}
+
+.btn-success:hover{
+    background-color: green;
+    color: white;
+}
+.btn-danger:hover{
+    background-color: tomato;
+    color: white;
+}
+.btn-warning:hover{
+    background-color: orange;
+    color: white;
+}
