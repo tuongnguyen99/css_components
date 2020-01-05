@@ -1,0 +1,32 @@
+.btn-arrow{
+    width: 120px;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: tomato;
+    outline: none;
+    cursor: pointer;
+    color: #FFF;
+    transition: all 0.4s;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn-arrow span{
+    position: relative;
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+.btn-arrow:hover span{
+    padding-right: 10px;
+}
+.btn-arrow span::after{
+    content: ' \00bb';
+    position: absolute;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.btn-arrow:hover span::after{
+    padding-left: 10px;
+    opacity: 1;
+}

@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+}
+.sidenav{
+    position: relative;
+    height: 300px;
+}
+.sidenav a{
+    position: absolute;
+    display: block;
+    width: 94px;
+    padding: 10px;
+    transition: 0.4s;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    border-radius: 4px;
+}
+#sidenavShare{
+    background-color: blueviolet;
+    top: 0px;
+    left: -100px;
+}
+
+#sidenavBlog{
+    background-color: coral;
+    top: 50px;
+    left: -100px;
+}
+
+#sidenavContact{
+    background-color: darkcyan;
+    top: 100px;
+    left: -100px;
+}
+
+#sidenavAbout{
+    background-color: deeppink;
+    top: 150px;
+    left: -100px;
+}
+
+#sidenavShare:hover{
+    left: -10px;
+}
+
+#sidenavContact:hover{
+    left: -10px;
+}
+
+#sidenavAbout:hover{
+    left: -10px;
+}
+
+#sidenavBlog:hover{
+    left: -10px;
+}
