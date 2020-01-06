@@ -1,0 +1,9 @@
+.btn-loading{
+    width: 100px;
+    height: 40px;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+}

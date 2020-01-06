@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.sb-container{
+    width: 100%;
+    background-color: #dddddd;
+    margin: 4px 4px;
+}
+
+.sb-container .sb-skill{
+    box-sizing: border-box;
+    text-align: right;
+    padding: 4px 12px 4px 0;
+    color: #fff;
+}
+
+.sb-java{
+    width: 90%;
+    background-color: tomato;
+}
+.sb-php{
+    width: 40%;
+    background-color: blueviolet;
+}
+.sb-js{
+    width: 80%;
+    background-color: coral;
+}
