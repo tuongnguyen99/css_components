@@ -1,0 +1,32 @@
+.traffic-light{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #545454;
+}
+
+.traffic-light div{
+    width: 100px;
+    height: 100px;
+    margin: 6px;
+    border-radius: 50%;
+    opacity: .2;
+}
+
+.tl-red{
+    background-color: #f44336;
+}
+
+.tl-yellow{
+    background-color: #ffc107;
+}
+
+.tl-green{
+    background-color: #4caf50;
+}
+
+.tl-active{
+    opacity: 1 !important;
+}
