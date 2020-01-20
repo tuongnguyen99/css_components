@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="calc-screen">
+                <div class="calc-input" id="calc-input">
+
+                </div>
+                <div class="calc-result" id="calc-result">0</div>
+            </div>
+            <div class="calc-keyboard">
+                <table>
+                    <tr>
+                        <td><input type="button" class="calc-c" value="C" onclick="clearInput()"></td>
+                        <td><input type="button" value="#" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="%" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="/" onclick="onKeyPressed(this)"></td>
+                    </tr>               
+                    <tr>
+                        <td><input type="button" value="7" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="8" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="9" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="*" onclick="onKeyPressed(this)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="5" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="6" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="-" onclick="onKeyPressed(this)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="2" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="3" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="+" onclick="onKeyPressed(this)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="." onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="0" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="<" onclick="onKeyPressed(this)"></td>
+                        <td><input type="button" value="=" onclick="calculate()"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
